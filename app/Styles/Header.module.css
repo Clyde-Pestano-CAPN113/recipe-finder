@@ -1,0 +1,28 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #f8f9fa;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .header h1 {
+    margin: 0;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  .header nav {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .header nav a {
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+  }
+  
+  .header nav a:hover {
+    background-color: #e9ecef;
+  }

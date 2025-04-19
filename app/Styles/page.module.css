@@ -1,0 +1,27 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+  
+  .recipeGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+  
+  .loading {
+    padding: 1rem;
+    text-align: center;
+    font-style: italic;
+    color: #666;
+  }
+  
+  .error {
+    padding: 1rem;
+    background: #ffebee;
+    color: #c62828;
+    border-radius: 4px;
+    margin: 1rem 0;
+  }
