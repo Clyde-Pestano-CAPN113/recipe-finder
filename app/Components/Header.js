@@ -11,7 +11,7 @@ export default function Header() {
       </Link>
       <nav>
         <Link href="/">Home</Link>
-        <Link href="/favorites">Favorites</Link>
+        <Link href="/Favorites">Favorites</Link>
       </nav>
     </header>
   );
