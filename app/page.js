@@ -8,7 +8,6 @@ import RecipeCard from './Components/RecipeCard';
 import styles from './styles/page.module.css';
 
 export default function Home() {
-  const [searchQuery, setSearchQuery] = useState('');
   const [filters, setFilters] = useState({
     vegetarian: false,
     vegan: false,
